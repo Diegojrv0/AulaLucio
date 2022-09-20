@@ -77,5 +77,5 @@ app.delete('/movie/:id', (req,res) => {
     });
     res.send("Filme foi apagado!");
 });
-
+//ok
 app.listen(port, () => console.log(`Servidor iniciado na porta ${port}`));
